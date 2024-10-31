@@ -1,0 +1,84 @@
+.headmenu > li > a .head-icon {
+    font-size: 50px;
+    text-align: center;
+}
+
+.table th.rightalign, .table td.rightalign { text-align: right; }
+
+#busy {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    background: transparent url("../images/loading.gif");
+    z-index: 1000;
+    height: 31px;
+    width: 31px;
+}
+
+.headmenu {
+    overflow: hidden;
+}
+
+.prettyprint ol.linenums {
+    margin-left:2em;
+}
+
+#apiDocumentation h4 {
+    margin-bottom: 1em
+}
+
+tr.active td {
+    background:#ddd !important;
+}
+
+.logo a {
+    text-indent: -10000px;
+    background: transparent url("../images/plugz-logo-member.png") 0 0 no-repeat;
+    height: 89px;
+    width: 234px;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+button.btn, input.btn[type="submit"] {
+    padding:5px 12px;
+}
+
+.stdform label.required:after {
+    color: #f22;
+    content: " *";
+}
+
+
+.dashboard-thumb {
+    float: left;
+    margin-top: 5px;
+    width: 50px;
+    margin-right:33px;
+    margin-left:23px;
+    border: 1px solid #DDDDDD;
+    padding: 3px;
+}
+
+.dashboard-thumb img {
+    display:block;
+}
+
+th.header {
+    clear:none;
+    height:auto;
+}
+
+.shortcuts-num {
+font-size: 2em;
+text-align: center;
+margin: 1em auto;
+display: block;
+padding: 0 10px;
+}
+
+.shortcuts li .shortcuts-label {
+padding-top: 5px;
+}
